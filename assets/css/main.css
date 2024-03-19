@@ -236,6 +236,7 @@ input, select, textarea {
 		h2 {
 			font-size: 1.25em;
 			line-height: 1.5;
+			max-width: 290px;
 		}
 
 	}
@@ -1140,9 +1141,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1288,8 +1292,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 4.3rem;
+			height: 4.3rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
@@ -1297,6 +1301,7 @@ input, select, textarea {
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+
 			}
 
 		#header .content {
@@ -1438,8 +1443,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 3.45rem;
+				height: 3.45rem;
 				line-height: 4.75rem;
 			}
 
